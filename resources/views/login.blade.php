@@ -141,7 +141,7 @@
         </div>
         
         <div class="login-footer">
-            By : Peserta UKK 2026
+            By : fariz
         </div>
     </div>
 
