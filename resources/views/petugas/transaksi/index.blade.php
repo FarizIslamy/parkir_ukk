@@ -85,7 +85,7 @@
                     </div>
 
                     <button type="submit" class="btn btn-primary w-100 fw-bold shadow-sm py-2">
-                        <i class="fas fa-print me-2"></i> SIMPAN & CETAK KARCIS
+                        <i class="fas fa-print me-2"></i> SIMPAN
                     </button>
                 </form>
             </div>
