@@ -111,7 +111,7 @@
                         @forelse($recent as $t)
                         <tr>
                             <td>{{ date('H:i', strtotime($t->waktu_masuk)) }}</td>
-                            <td class="fw-bold">{{ strtoupper($t->kendaraan->plat_nomor) }}</td>
+                            <td class="fw-bold">{{ strtoupper($t->kendaraan?->plat_nomor ?? 'KENDARAAN DIHAPUS') }}</td>
                             <td><small class="fw-bold text-primary">{{ $t->area->nama_area ?? '-' }}</small></td>
                             <td>
                                 <span class="badge bg-warning text-dark" style="font-size: 10px;">PARKIR</span>

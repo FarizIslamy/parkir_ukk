@@ -58,7 +58,7 @@
                 <tr>
                     <td>{{ $key + 1 }}</td>
                     <td>{{ date('d/m/Y H:i', strtotime($item->waktu_keluar)) }}</td>
-                    <td class="text-uppercase">{{ $item->kendaraan->plat_nomor }}</td>
+                    <td class="text-uppercase">{{ $item->kendaraan?->plat_nomor ?? 'TERHAPUS' }}</td>
                     <td>{{ $item->durasi_jam }} Jam</td>
                     <td class="text-end pe-4">Rp {{ number_format($item->biaya_total, 0, ',', '.') }}</td>
                 </tr>

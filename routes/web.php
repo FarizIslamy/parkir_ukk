@@ -27,7 +27,7 @@ Route::post('/logout', [AuthController::class, 'logout'])->name('logout');
 // ==========================================
 Route::middleware(['auth', 'cekrole:admin'])->group(function () {
     
-    // Arahkan ke DashboardController yang baru kita buat
+    
     Route::get('/dashboard', [DashboardController::class, 'index'])->name('admin.dashboard');
     
     // CRUD Data Master
