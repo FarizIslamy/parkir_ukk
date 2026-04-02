@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Models\LogAktivitas; // Pastikan nama Modelnya sesuai
+use App\Models\LogAktivitas; 
 
 class LogAktivitasController extends Controller
 {

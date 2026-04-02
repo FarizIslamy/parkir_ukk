@@ -3,9 +3,9 @@
 namespace App\Http\Controllers;
 
 use App\Models\Tarif;
-use App\Models\LogAktivitas; // <--- 1. Tambahkan model Log
+use App\Models\LogAktivitas; 
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Auth; // <--- 2. Tambahkan Auth
+use Illuminate\Support\Facades\Auth; 
 
 class TarifController extends Controller
 {
